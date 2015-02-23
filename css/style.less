@@ -1,0 +1,73 @@
+// color palettes
+
+@lightblue: #44BBFF;
+@lightorange: #F6B42C;
+@lightgreen: #AAD450;
+@lightpink: #F27490;
+@navyblue: #334455;
+@lightgrey: #DDD;
+
+// ************
+
+* {
+	maring: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 50px;
+}
+
+button {
+	border: none;
+	padding: 10px 25px;
+	cursor: pointer;
+	color: white;
+	margin: 10px 0px;
+	font-weight: 500;
+	background: @navyblue;
+	-webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline:none;
+  text-transform: uppercase;
+}
+
+button:hover {
+	background: @lightblue;
+}
+
+table {
+	width: 700px;
+	border: 1px solid black;
+	margin: 0px auto;
+	background: white;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+
+th {
+	text-align: left;
+}
+
+div.body {
+	max-width: 970px;
+	border-radius: 15px;
+	margin: 15px auto;
+	background: @lightgrey;
+	padding: 25px;
+}

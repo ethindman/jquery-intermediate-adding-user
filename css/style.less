@@ -16,6 +16,7 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
+	background: @lightblue;
 }
 
 div {
@@ -64,10 +65,29 @@ th {
 	text-align: left;
 }
 
-div.body {
-	max-width: 970px;
+form {
+	margin: 0px auto;
+	margin-top: 20px;
+	max-width: 700px;
+}
+
+input {
+	padding: 5px;
+	display: block;
+	margin: 5px 0px;
+}
+
+div.container {
+	max-width: 800px;
 	border-radius: 15px;
 	margin: 15px auto;
 	background: @lightgrey;
+}
+
+div.body {
 	padding: 25px;
+}
+
+div.body h1, p {
+	text-align: center;
 }
